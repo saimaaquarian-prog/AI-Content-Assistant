@@ -123,5 +123,5 @@ if submitted:
             st.markdown("---")
             st.caption("Tip: You can highlight and copy the text block above directly, or use it for your upcoming calendar.")
             
-        Exception_as e:
+        except Exception as e:
             st.error(f"❌ An error occurred during generation: {e}")
